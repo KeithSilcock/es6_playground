@@ -1,1 +1,6 @@
-console.log('App working: open app/index.js to start exploring ES6');
+import { addToDom} from "./helpers";
+import add from './add';
+
+addToDom('<h1>Yo fam, this meal is lit!</h1>');
+
+addToDom(`42 + 27 = ${add(42,27)}`);
